@@ -1,0 +1,15 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.7;
+}
