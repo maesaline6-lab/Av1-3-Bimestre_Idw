@@ -14,23 +14,127 @@ p {
   line-height: 1.7;
 }
 
+.row {
+border: 40px solid black;
+padding: 20px;
+margin-bottom: 30px;
+background-color: #aecfb0;
+}
+
 section {
-border: 3px solid black;
-padding: 15px;
-margin-bottom: 20px;
-background-color: #f8f9fa;
+  border: 3px solid black;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #aecfb0;
 }
 
 .container {
-border: 2px dashed red;
+border: 2px;
 padding: 10px;
 margin-bottom: 10px;
-background-color: #fff;
+background-color: #6a7a65;
 }
 
 .coluna {
 border: 2px solid blue;
-padding: 15px;
+padding: 20px;
 text-align: center;
-background-color: #e9ecef;
+background-color: #6a7a65;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #6a7a65;
+}
+
+header {
+  background-color: #00144d;
+  color: rgb(138, 166, 255);
+  padding: 20px;
+  text-align: center;
+  border: #444;
+}
+
+nav {
+  padding: 20px;
+  background-color: #001e70;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(154, 178, 255);
+  text-decoration: #222;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+nav a:hover {
+  color: rgb(197, 210, 255);
+}
+
+main {
+  padding: 20px;
+}
+
+.row {
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 25px solid #6a7a65;
+  border-radius: 10px 10px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 3px solid #6a7a65;
+  border-radius: 10px 10px;
+}
+
+footer {
+  background-color: #020e4e;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+iframe {
+  border-radius: 40px 40px;
+}
+
+.galeria {
+  text-align: center;
+}
+
+.versos img {
+  width: 30%;
+  height: 500px;
+  margin-right: 10px;
+  margin-left: 10px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+
+button {
+  background-color: #2b3a28;
+  color: rgb(43, 83, 48);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
